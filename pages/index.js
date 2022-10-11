@@ -317,14 +317,13 @@ export default function Home() {
               </div>
               <div className="flex justify-center items-center gap-10 py-3 my-2 text-white text-center">
                 <a
-                  href="#"
+                  href="https://github.com/AymericDM83/Portfolio-NextJS"
                   target="_blank"
                   className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl"
                 >
                   Source code
                 </a>
                 <a
-                  href="#"
                   target="_blank"
                   className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl"
                 >
