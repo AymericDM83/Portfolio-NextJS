@@ -237,7 +237,7 @@ export default function Home() {
                   Source code
                 </a>
                 <a
-                  href="https://kasa-aymericdm83.vercel.app/#/"
+                  href="https://kasa-bu3goflr2-aymericdm83.vercel.app/"
                   target="_blank"
                   className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl"
                 >
