@@ -17,6 +17,7 @@ import ohmyfoodPic from "../public/MiniatureOhmyfood2.png";
 import lapantherePic from "../public/LapanthereMiniature.png";
 import bookiPic from "../public/MiniatureBooki.png";
 import portfolioPic from "../public/MiniaturePortfolio.png";
+import lyriksPic from "../public/MiniatureLyriks.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -172,6 +173,7 @@ export default function Home() {
             <ul className="text-white text-md flex flex-wrap justify-center gap-5 ">
               <li className="p-3 bg-gray-600 rounded-2xl ">ReactJS</li>
               <li className="p-3 bg-gray-600 rounded-2xl ">Next.JS</li>
+              <li className="p-3 bg-gray-600 rounded-2xl ">Redux Basics</li>
               <li className="p-3 bg-gray-600 rounded-2xl ">JavaScript</li>
               <li className="p-3 bg-gray-600 rounded-2xl ">HTML</li>
               <li className="p-3 bg-gray-600 rounded-2xl ">CSS</li>
@@ -204,6 +206,59 @@ export default function Home() {
             <div className="text-center shadow-lg p-8 rounded-xl my-10 bg-gray-200 dark:bg-gray-800  flex-1">
               <div>
                 <Image
+                  src={lyriksPic}
+                  width={500}
+                  height={300}
+                  className="rounded-xl"
+                />
+                <h3 className="text-2xl font-medium pt-8 pb-2 text-center dark:text-white">
+                  Lyriks - Music App
+                </h3>
+                <p className="py-2 max-w-5 dark:text-white">
+                  Spotify clone app with React 18, Tailwind CSS, Redux,
+                  RapidAPI. Playing music from SHAZAM CORE API, around you
+                  section (popular music according to your country location with
+                  GEO API), top artists and top charts sections. Lyrics, songs
+                  and artists exploration, search function
+                </p>
+                <div className="max-w-xs mx-auto my-10">
+                  <ul className="text-white text-md flex flex-wrap justify-center items-center gap-2 my-4">
+                    <li className="p-2 bg-gray-600 rounded-2xl">HTML</li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">
+                      Tailwind CSS
+                    </li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">ReactJS</li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">Redux</li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">RapidAPI</li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">JavaScript</li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">
+                      Responsive design
+                    </li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">Git</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="flex justify-center items-center gap-10 py-3 my-2 text-white text-center ">
+                <a
+                  href="https://github.com/AymericDM83/Music-App-Spotify-Clone"
+                  target="_blank"
+                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl"
+                >
+                  Source code
+                </a>
+                <a
+                  href="https://aymericdm-music-app.netlify.app/"
+                  target="_blank"
+                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl"
+                >
+                  Website link
+                </a>
+              </div>
+            </div>
+
+            <div className="text-center shadow-lg p-8 rounded-xl my-10 bg-gray-200 dark:bg-gray-800  flex-1">
+              <div>
+                <Image
                   src={kasaPic}
                   width={500}
                   height={300}
@@ -213,7 +268,11 @@ export default function Home() {
                   Kasa
                 </h3>
                 <p className="py-2 max-w-5 dark:text-white">
-                  Responsive reservation website created with ReactJS / Sass
+                  Responsive reservation website created with ReactJS / Sass.
+                  Development of the different components, navigation management
+                  with React Router V6. Use of Hooks (useState, useEffect,
+                  useContext) and management of events, breakdown into reusable
+                  modular components, logical structure of different files
                 </p>
                 <div className="max-w-xs mx-auto my-10">
                   <ul className="text-white text-md flex flex-wrap justify-center items-center gap-2 my-4">
@@ -300,7 +359,8 @@ export default function Home() {
                 Personal portfolio
               </h3>
               <p className="py-2 max-w-5 dark:text-white">
-                The site you are on. Using Next.JS, React, TailwindCSS
+                The site you are on. Using Next.JS, React, TailwindCSS. Create
+                to present myself and share my projects
               </p>
               <div className="max-w-xs mx-auto my-10">
                 <ul className="text-white text-md flex flex-wrap justify-center items-center gap-2 my-4">
