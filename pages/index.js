@@ -247,9 +247,9 @@ export default function Home() {
                   Source code
                 </a>
                 <a
-                  href="https://aymericdm-music-app.netlify.app/"
-                  target="_blank"
-                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl"
+                  href="#sectionProjects"
+                  // target="_blank"
+                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl line-through"
                 >
                   Website link
                 </a>
@@ -385,7 +385,7 @@ export default function Home() {
                 </a>
                 <a
                   target="_blank"
-                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl"
+                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl line-through"
                 >
                   Website demo
                 </a>
@@ -433,7 +433,7 @@ export default function Home() {
                 </a>
                 <a
                   target="_blank"
-                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl"
+                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl line-through"
                 >
                   Website demo
                 </a>
@@ -476,7 +476,7 @@ export default function Home() {
                 </a>
                 <a
                   target="_blank"
-                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl"
+                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl line-through"
                 >
                   Website demo
                 </a>
