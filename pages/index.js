@@ -18,6 +18,7 @@ import lapantherePic from "../public/LapanthereMiniature.png";
 import bookiPic from "../public/MiniatureBooki.png";
 import portfolioPic from "../public/MiniaturePortfolio.png";
 import lyriksPic from "../public/MiniatureLyriks.png";
+import GboardPic from "../public/MiniatureGboard.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -203,6 +204,60 @@ export default function Home() {
           </div>
 
           <div className="lg:flex flex-wrap gap-5">
+            <div className="text-center shadow-lg p-8 rounded-xl my-10 bg-gray-200 dark:bg-gray-800  flex-1">
+              <div>
+                <Image
+                  src={GboardPic}
+                  width={500}
+                  height={300}
+                  className="rounded-xl"
+                />
+                <h3 className="text-2xl font-medium pt-8 pb-2 text-center dark:text-white">
+                  GBoard - Weather & News dashboard
+                </h3>
+                <p className="py-2 max-w-5 dark:text-white">
+                  Creation of a dashboard with News and Weather sections.
+                  Multiple API's requests with Axios to get data. News can be
+                  sort by categories and you can choose the city to get weather
+                  in real time
+                </p>
+                <div className="max-w-xs mx-auto my-10">
+                  <ul className="text-white text-md flex flex-wrap justify-center items-center gap-2 my-4">
+                    <li className="p-2 bg-gray-600 rounded-2xl">ReactJS</li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">
+                      React Router V6
+                    </li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">
+                      Tailwind CSS
+                    </li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">Axios</li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">API REST</li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">JavaScript</li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">
+                      Responsive design
+                    </li>
+                    <li className="p-2 bg-gray-600 rounded-2xl">Git</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="flex justify-center items-center gap-10 py-3 my-2 text-white text-center ">
+                <a
+                  href="https://github.com/AymericDM83/G-Board"
+                  target="_blank"
+                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl"
+                >
+                  Source code
+                </a>
+                <a
+                  href="https://g-board.vercel.app/"
+                  target="_blank"
+                  className="bg-emerald-500 rounded-xl py-2 px-10 hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-xl"
+                >
+                  Website link
+                </a>
+              </div>
+            </div>
+
             <div className="text-center shadow-lg p-8 rounded-xl my-10 bg-gray-200 dark:bg-gray-800  flex-1">
               <div>
                 <Image
